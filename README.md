@@ -1,2 +1,18 @@
-# CodingTest
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 📝 1일 1코테 (기록용)
+
+백준허브를 이용해 매일 푼 문제들이 자동으로 커밋됩니다.  
+혼자 공부하며 성장하는 기록 저장소입니다.
+
+## 🎯 목표
+- 하루 한 문제 이상 꾸준히 풀기
+- 풀이 및 제출 기록 아카이빙
+
+## 🗂️ 구조
+- `백준허브`가 자동으로 문제별 폴더와 파일을 생성
+- 문제 풀이 및 코드가 이 레포지토리에 자동 커밋됨
+
+## 📝 기록
+- 별도의 정리 없이 자동 업로드된 문제 풀이 기록용 레포지토리
+- 필요할 때만 풀이 메모를 추가로 작성
+
+> 작은 꾸준함이 큰 변화를 만든다 🚀
