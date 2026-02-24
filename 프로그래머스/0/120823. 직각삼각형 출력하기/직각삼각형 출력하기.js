@@ -16,3 +16,4 @@ rl.on('line', function (line) {
     }
     console.log(answer);
 });
+// Node.js에서 표준 입력을 받는 방법
