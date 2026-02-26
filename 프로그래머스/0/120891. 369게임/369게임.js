@@ -1,6 +1,3 @@
 const solution = (order) => {
-    var result = String(order).replace(/[369]/g, "a");
-    
-    return [...result].reduce((acc, cur) => {
-        return cur === "a" ? acc += 1 : acc }, 0);
+    return String(order).match(/[369]/g)?.length || 0;
 }
