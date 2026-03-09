@@ -1,12 +1,10 @@
 function solution(n) {
-    var answer = n;
-    var ch = answer.toString(2);
-    var len = [...String(ch)].filter(x => x === '1').length;
+    const cnt = (num) => [...num.toString(2)].filter(x => x === '1').length
+    var target = cnt(n);
+    var answer = n + 1;
     
-    while(true){
+    while(cnt(answer) !== target){
         answer++;
-        ch = answer.toString(2); // 이진수 변환
-        if([...ch].filter(x => x === '1').length === len) break;   
     }
     return answer;
 }
