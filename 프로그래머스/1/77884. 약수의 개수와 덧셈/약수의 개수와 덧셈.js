@@ -10,3 +10,5 @@ function solution(left, right) {
     }
     return answer;
 }
+// 제곱근이 정수면 약수의 개수가 홀수다
+// Number.inInteger(Math.sqrt(i)) 로도 풀수 있음
