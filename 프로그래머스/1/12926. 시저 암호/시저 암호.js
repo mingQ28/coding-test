@@ -3,9 +3,8 @@ function solution(s, n) {
         if(x === ' ') return x;
         
         var code = x.charCodeAt(0);
-        var val = code + n;
-        if(code >= 65 && code <= 90) val = val > 90 ? val- 26 : val;
-        else if(code >= 97 && code <= 122) val = val > 122 ? val - 26 : val;
-        return String.fromCharCode(val);
+        var base = code >= 97 ? 97 : 65; // 대소문자 구별하기 위해
+        
+        return String.fromCharCode((code + n - base) % 26 + base);
     }).join('');
 }
